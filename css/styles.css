@@ -11374,8 +11374,17 @@ p {
     color: rgba(255, 255, 255, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+    text-decoration: underline solid;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 3px;
     color: #e6a756;
   }
+}
+
+.nav-item:hover {
+  text-decoration: underline solid;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 3px;
 }
 
 .btn {
