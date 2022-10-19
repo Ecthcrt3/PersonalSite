@@ -11489,3 +11489,8 @@ p {
 .address strong {
   font-size: 1.2rem;
 }
+
+.brand-container {
+  text-align: right;
+  opacity: .4;
+}
