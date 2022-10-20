@@ -1,0 +1,21 @@
+:root {
+    --cs-orange: #EAB464;
+    --cs-white: #C6B9CD;
+    --cs-gray: #5A5766;
+    --cs-blue: #3C91E6;
+    --cs-green: #70AE6E;
+}
+
+body {
+    color: var(--cs-gray);
+    background-color: var(--cs-green);
+}
+
+.brand-container-right {
+    text-align: right;
+    opacity: .4;
+  }
+
+.brand-container-left {
+    opacity: .4;
+}
