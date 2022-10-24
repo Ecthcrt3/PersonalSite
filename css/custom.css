@@ -1,14 +1,37 @@
 :root {
-    --cs-orange: #EAB464;
-    --cs-white: #C6B9CD;
-    --cs-gray: #5A5766;
-    --cs-blue: #3C91E6;
-    --cs-green: #70AE6E;
+    --cs-white:#F8FBFE;
+    --cs-gray: #8394a3;
+    --cs-blue: #2e8ae7;
+    --cs-black:#28282B;
+    --cs-yellow: #D2E817;
 }
 
 body {
+    background-color: var(--cs-gray);
+    color: var(--cs-black);
+    background-image: none;
+}
+
+.footer {
+    background-color: var(--cs-blue);
+    border-radius: 10px 10px 0 0;
+}
+
+#mainNav {
+    background-color: var(--cs-blue);
+    border-radius: 10px;
+}
+
+#mainNav .navBar-brand {
+    color: var(--cs-white);
+}
+
+#mainNav .navBar-brand .active {
+    color: var(--cs-yellow);
+}
+
+.brand-container a {
     color: var(--cs-gray);
-    background-color: var(--cs-green);
 }
 
 .brand-container-right {
@@ -19,3 +42,4 @@ body {
 .brand-container-left {
     opacity: .4;
 }
+
