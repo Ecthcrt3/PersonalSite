@@ -1,15 +1,22 @@
 :root {
     --cs-white:#F8FBFE;
     --cs-gray: #8394a3;
+    --cs-gray-dark: #5F768C;
+    --cs-gray-light: #B3BEC7;
     --cs-blue: #2e8ae7;
+    --cs-blue-dark: #0657AC;
+    --cs-blue-light: #7FB6F0;
     --cs-black:#28282B;
+    --cs-black-dark: #0C0C14;
+    --cs-black-light: #4C4C52;
     --cs-yellow: #D2E817;
+    --cs-yellow-dark: #A5B808;
+    --cs-yellow-light: #ECFB6F;
 }
 
 body {
-    background-color: var(--cs-gray);
+    background-color: var(--cs-gray-light);
     color: var(--cs-black);
-    background-image: none;
 }
 
 .footer {
@@ -43,4 +50,28 @@ body {
     opacity: .4;
 }
 
+.bg-faded{
+    background-color: var(--cs-gray);
+}
 
+.btn-primary {
+    background-color: var(--cs-blue);
+    color: var(--cs-black);
+    border: none;
+}
+.site-heading{
+    background-image: url(/assets/Images/kari-shea-1SAnrIxw5OY-unsplash.jpg);
+    background-position: center;
+    background-size:cover;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 300px;
+}
+.site-heading .site-heading-upper {
+    padding-top: 50px;
+    font-size: 3.5rem;
+}
+
+.page-section {
+    margin-top: 40px;
+}
