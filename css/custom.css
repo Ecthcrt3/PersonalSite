@@ -37,6 +37,12 @@ body {
     color: var(--cs-yellow);
 }
 
+.nav-link:hover{
+    text-decoration: underline solid;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 3px;
+}
+
 .brand-container a {
     color: var(--cs-gray);
 }
@@ -58,7 +64,14 @@ body {
     background-color: var(--cs-blue);
     color: var(--cs-black);
     border: none;
+    border-radius: 6px;
+    font-size: 1.5em;
 }
+
+.btn-primary:hover{
+    color: var(--cs-black);
+}
+
 .site-heading{
     background-image: url(/assets/Images/kari-shea-1SAnrIxw5OY-unsplash.jpg);
     background-position: center;
@@ -74,4 +87,8 @@ body {
 
 .page-section {
     margin-top: 40px;
+}
+
+.form-check-inline{
+    width: 75%;
 }
