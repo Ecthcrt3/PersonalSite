@@ -2,7 +2,7 @@
     --cs-white:#F8FBFE;
     --cs-gray: #8394a3;
     --cs-gray-dark: #5F768C;
-    --cs-gray-light: #B3BEC7;
+    --cs-gray-light: rgb(179, 190, 199);
     --cs-blue: #2e8ae7;
     --cs-blue-dark: #0657AC;
     --cs-blue-light: #7FB6F0;
@@ -14,7 +14,15 @@
     --cs-yellow-light: #ECFB6F;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+
 body {
+    font-size: 18px;
     background-color: var(--cs-gray-light);
     color: var(--cs-black);
 }
@@ -91,4 +99,23 @@ body {
 
 .form-check-inline{
     width: 75%;
+}
+
+.projectContainer {
+    background-color: var(--cs-gray-dark);
+    border-radius: 6px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.pictureLinks {
+    text-decoration: none;
+}
+
+.information {
+    color: var(--cs-white);
+    background-color: rgba(179, 190, 199, .7);
+    border-radius: 6px;
 }
